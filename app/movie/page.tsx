@@ -2,9 +2,9 @@
 import React from "react";
 import { Layout, theme } from "antd";
 import Navbar from "@/components/Navbar";
+import { Provider } from "react-redux";
 import store from "@/lib/store";
 import ListMovie from "@/components/ListMovie";
-import { Provider } from "react-redux";
 
 const { Content } = Layout;
 
